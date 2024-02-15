@@ -94,7 +94,7 @@ int main() {
     windchill_factor = windchill(temp, windSpeed, 'c');
     cout << "Wind chill factor is " << fixed << setprecision(1) << windchill_factor << "C." << endl;
   } else {
-    cerr << "Error. Please use use f for Fahrenheit or c for Celsius." << endl;
+    cerr << "Error. Please use f for Fahrenheit or c for Celsius." << endl;
     return 1;
   }
   return 0;
